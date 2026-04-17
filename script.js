@@ -72,4 +72,44 @@ document.addEventListener('DOMContentLoaded', () => {
             scale: 1.02
         });
     }
+
+    // Initialize Particles background
+    if (typeof tsParticles !== 'undefined') {
+        tsParticles.load("tsparticles", {
+            fpsLimit: 60,
+            interactivity: {
+                detectsOn: "window",
+                events: {
+                    onHover: { enable: true, mode: "repulse" },
+                    resize: true,
+                },
+                modes: {
+                    repulse: { distance: 120, duration: 0.4 },
+                },
+            },
+            particles: {
+                color: { value: ["#3b82f6", "#0ea5e9", "#1e293b"] },
+                links: { enable: false },
+                move: {
+                    direction: "none",
+                    enable: true,
+                    outModes: { default: "bounce" },
+                    random: true,
+                    speed: 1,
+                    straight: false,
+                },
+                number: {
+                    density: { enable: true, area: 800 },
+                    value: 50,
+                },
+                opacity: {
+                    value: 0.5,
+                    animation: { enable: true, speed: 1, minimumValue: 0.1 }
+                },
+                shape: { type: "circle" },
+                size: { value: { min: 2, max: 10 } },
+            },
+            detectRetina: true,
+        });
+    }
 });
