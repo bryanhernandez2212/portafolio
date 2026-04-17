@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Hernández | Desarrollador Full Stack</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- DevIcons -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- Boxicons for standard icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar Flotante -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">BH.</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#tech">Tecnologías</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 1. Hero Principal -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-content">
+                <p class="hero-subtitle">Ingeniero en Desarrollo y Gestión de Software</p>
+                <h1 class="hero-title">Bryan de Jesús <br> <span class="text-gradient">Hernández Luna</span></h1>
+                <h2 class="hero-roles">Desarrollador Full Stack | Web | Mobile</h2>
+                <p class="hero-description">
+                    Creo soluciones digitales modernas para empresas e instituciones.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+                    <a href="/cv-bryan-hernandez.pdf" class="btn btn-secondary" download>Descargar CV <i class='bx bx-download'></i></a>
+                    <a href="#contact" class="btn btn-outline">Contactarme</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Sobre Mí -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="about-card glow-card">
+                    <p>
+                        Desarrollador enfocado en crear aplicaciones web y móviles funcionales. 
+                        Experiencia trabajando con empresas, sistemas administrativos y plataformas comerciales.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Tecnologías -->
+        <section id="tech" class="section">
+            <div class="container">
+                <h2 class="section-title">Tecnologías</h2>
+                <div class="tech-grid">
+                    <!-- Iconos de Devicon -->
+                    <div class="tech-item"><i class="devicon-html5-plain colored"></i> <span>HTML</span></div>
+                    <div class="tech-item"><i class="devicon-css3-plain colored"></i> <span>CSS</span></div>
+                    <div class="tech-item"><i class="devicon-tailwindcss-original colored"></i> <span>Tailwind</span></div>
+                    <div class="tech-item"><i class="devicon-javascript-plain colored"></i> <span>JavaScript</span></div>
+                    <div class="tech-item"><i class="devicon-react-original colored"></i> <span>React</span></div>
+                    <div class="tech-item"><i class="devicon-nodejs-plain colored"></i> <span>Node.js</span></div>
+                    <div class="tech-item"><i class="devicon-php-plain colored"></i> <span>PHP</span></div>
+                    <div class="tech-item"><i class="devicon-laravel-original colored"></i> <span>Laravel</span></div>
+                    <div class="tech-item"><i class="devicon-flutter-plain colored"></i> <span>Flutter</span></div>
+                    <div class="tech-item"><i class="devicon-mysql-original-wordmark colored"></i> <span>MySQL</span></div>
+                    <div class="tech-item"><i class="devicon-mongodb-plain colored"></i> <span>MongoDB</span></div>
+                    <div class="tech-item"><i class="devicon-git-plain colored"></i> <span>Git</span></div>
+                    <div class="tech-item"><i class="devicon-firebase-plain colored"></i> <span>Firebase</span></div>
+                    <div class="tech-item"><i class="devicon-supabase-plain colored"></i> <span>Supabase</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Proyectos -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Proyectos</h2>
+                <div class="projects-grid">
+                    
+                    <!-- Proyecto 1 -->
+                    <div class="project-card glow-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, #1e3a8a, #0f172a);">
+                            <div class="project-placeholder-icon"><i class='bx bx-book-reader'></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Ventanilla Única</h3>
+                            <p>Sistema móvil universitario para control de expedientes.</p>
+                            <div class="tech-chips">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                            </div>
+                            <ul class="project-features">
+                                <li><i class='bx bx-check'></i> Citas</li>
+                                <li><i class='bx bx-check'></i> Documentos</li>
+                                <li><i class='bx bx-check'></i> Chat</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#" class="btn-link"><i class='bx bx-link-external'></i> Demo</a>
+                                <a href="#" class="btn-link"><i class='bx bxl-github' ></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="project-card glow-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, #0f766e, #064e3b);">
+                            <div class="project-placeholder-icon"><i class='bx bx-buildings'></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Directorio de Negocios</h3>
+                            <p>Plataforma empresarial para listado y gestión de negocios locales.</p>
+                            <div class="tech-chips">
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links mt-auto">
+                                <a href="#" class="btn-link"><i class='bx bx-link-external'></i> Demo</a>
+                                <a href="#" class="btn-link"><i class='bx bxl-github' ></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="project-card glow-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, #86198f, #4a044e);">
+                            <div class="project-placeholder-icon"><i class='bx bx-store-alt'></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Alabaztrum Perfumes</h3>
+                            <p>E-commerce propio para la venta de perfumería.</p>
+                            <div class="tech-chips">
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links mt-auto">
+                                <a href="#" class="btn-link"><i class='bx bx-link-external'></i> Demo</a>
+                                <a href="#" class="btn-link"><i class='bx bxl-github' ></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4 -->
+                    <div class="project-card glow-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, #b45309, #78350f);">
+                            <div class="project-placeholder-icon"><i class='bx bx-leaf'></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AgroMarket</h3>
+                            <p>Marketplace agrícola para distribución de productos del campo.</p>
+                            <div class="tech-chips">
+                                <span>Next.js</span>
+                                <span>Supabase</span>
+                            </div>
+                            <div class="project-links mt-auto">
+                                <a href="#" class="btn-link"><i class='bx bx-link-external'></i> Demo</a>
+                                <a href="#" class="btn-link"><i class='bx bxl-github' ></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Experiencia -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experiencia</h2>
+                <div class="experience-timeline">
+                    <div class="timeline-item glow-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Actualidad</div>
+                        <h3 class="timeline-title">Desarrollador Independiente</h3>
+                        <p class="timeline-desc">Desarrollo soluciones reales para clientes, negocios e instituciones. Creación de sistemas administrativos, tiendas en línea y aplicaciones móviles completas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Contacto -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <p class="contact-subtitle">¿Interesado en crear algo asombroso? Hablemos.</p>
+                <div class="contact-links">
+                    <a href="mailto:tuemail@ejemplo.com" class="social-btn email-btn">
+                        <i class='bx bx-envelope'></i> Correo
+                    </a>
+                    <a href="https://wa.me/tunumerodetelefono" class="social-btn whatsapp-btn" target="_blank">
+                        <i class='bx bxl-whatsapp'></i> WhatsApp
+                    </a>
+                    <a href="#" class="social-btn linkedin-btn" target="_blank">
+                        <i class='bx bxl-linkedin'></i> LinkedIn
+                    </a>
+                    <a href="#" class="social-btn github-btn" target="_blank">
+                        <i class='bx bxl-github'></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Bryan Hernández. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
