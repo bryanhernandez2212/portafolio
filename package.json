@@ -1,0 +1,11 @@
+{
+  "name": "portafolio-bryan",
+  "version": "1.0.0",
+  "description": "Portafolio web",
+  "scripts": {
+    "start": "serve -S ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
