@@ -292,6 +292,20 @@ a {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
+/* Layouts */
+.two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+@media (min-width: 900px) {
+    .two-column-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
 /* About Section */
 .about-grid {
     display: grid;
